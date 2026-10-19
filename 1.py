@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 """Task:
 Write a Python program to sort the employee records using a lambda expression.
 
@@ -119,6 +120,37 @@ print(result)
 
 
 
+=======
+"""1. Prime Security Code Checker
+
+A high-security research lab uses numeric passcodes to unlock restricted doors. To improve security,
+ only prime numbers are accepted because they have exactly two factors and are harder to predict using common patterns.
+
+When an employee enters a code, the system must verify whether the number is prime. If yes, access is granted; otherwise, access is denied.
+
+Write a program to check whether the entered number is Prime or Not Prime.
+
+Input:
+29
+
+Output:
+Prime Number"""
+#______________________________
+import math
+n = int(input("Enter n:"))
+
+if n <1:
+  print("Not Prime")
+else:
+  i = 2
+  while i<=int(math.sqrt(n)): 
+     if n%i == 0:
+        print("Not Prime")
+        break
+     i = i+1
+  else:
+    print("Prime")
+>>>>>>> 2ddaf0f7384ccb26d9d69b93f0ec3057ecd5b94e
 
 
 
